@@ -14,7 +14,8 @@ body {
   display: grid;
   justify-content: center;
   align-content: center;
-  min-height: 80vh;
+  padding-top:2px;
+  min-height: 100vh;
   grid-template-columns: repeat(4, 90px);
   grid-template-rows: minmax(120px, auto) repeat(5, 90px);
 }
@@ -42,7 +43,7 @@ body {
   align-items: flex-end;
   justify-content: space-around;
   flex-direction: column;
-  padding: 10px;
+  padding: 7px;
   word-wrap: break-word;
   word-break: break-all;
 }
